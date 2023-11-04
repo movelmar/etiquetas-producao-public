@@ -1,0 +1,240 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-left: 1mm;
+}
+
+.barcode-container90 {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.barcode-container45 {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.barcode-container270 {
+    display: inline-block;
+    transform: rotate(270deg);
+}
+
+.barcode-container315 {
+    display: inline-block;
+    transform: rotate(315deg);
+}
+
+.etiqueta {
+    padding: 3mm 0 0 0;
+}
+
+.etiqueta-container {
+    border: 2px solid white;
+    height: 75mm;
+    width: 108mm;
+}
+
+.barcode {
+    margin: 90px 0 83px -54px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.lote {
+    padding: 0 0 0 3mm;
+}
+
+.pedido {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 15px 0 5px 0;
+    border-bottom: 2px solid black;
+    width: 25mm;
+}
+
+.oc {
+    font-size: 13px;
+    padding: 3px 0 3px 0;
+    font-weight: 600;
+}
+
+.cliente {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1px 0 3px 0;
+}
+
+.item {
+    font-size: 13px;
+    padding: 7px 0 7px 3mm;
+    font-weight: 600;
+}
+
+.itemex {
+    font-size: 13px;
+    padding: 3px 0 3px 3mm;
+    font-weight: 600;
+}
+
+.mascara {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 0 7px 3mm;
+    width: 75mm;
+}
+
+.mascaraex {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0 3px 3mm;
+    width: 75mm;
+}
+
+.endereco {
+    font-size: 12px;
+    width: 70mm;
+}
+
+.enderecomov {
+    font-size: 12px;
+    width: 75mm;
+}
+
+.bhorisontal {
+    border-top: 2px solid black;
+    position: absolute;
+    float: left;
+    width: 78mm;
+    /* margin: -21px 0px 0 298px; */
+}
+
+.bcliente {
+    border-top: 2px solid black;
+    position: absolute;
+    float: left;
+    width: 78mm;
+    margin: 115px 0px 0px -15px;
+}
+
+.blote {
+    border-top: 2px solid black;
+    position: absolute;
+    float: left;
+    width: 101px;
+    margin: 34px 0 0 298px;
+}
+
+.dados {
+    float: left;
+    width: 78mm;
+    overflow: hidden;
+}
+
+.codigodebarras {
+    overflow: hidden;
+    border-left: 2px solid white;
+    height: 286px;
+    margin: -13px 0 0 0;
+}
+
+.clienteend {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 75mm;
+    padding: 3px 0 3px 3mm;
+}
+
+.clienteendmov {
+    border-top: 2px solid black;
+    width: 75mm;
+    padding: 3px 0 3px 3mm;
+}
+
+.volume {
+    font-size: 12px;
+    padding: 7px 0 10px 3mm;
+    font-weight: 600;
+}
+
+.volumeexportacao {
+    font-size: 12px;
+    padding: 4px 0 5px 3mm;
+    font-weight: 600;
+    float: right;
+    margin: 3px 10px 0 0;
+}
+
+.quantidade {
+    padding: 0 0 0 3mm;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.medida {
+    border-left: 1px solid black;
+}
+
+.logo {
+    overflow: hidden;
+    float: right;
+    //border: 2px solid black;
+    height: 61px;
+    width: 190px;
+    margin: -10px 0 0 -50px;
+}
+
+.logocannes {
+    overflow: hidden;
+    float: right;
+    //border: 2px solid black;
+    //height: 61px;
+    margin: 4px 0 0 0;
+}
+
+.logobranco {
+    overflow: hidden;
+    float: right;
+    margin: 4px 0 0 0;
+}
+
+.sequencia {
+    font-weight: 600;
+    float: right;
+    font-size: 12px;
+}
+
+.sequenciaex {
+    font-weight: 600;
+    float: right;
+    font-size: 12px;
+    margin-right: 15px;
+    padding: 3px 0 0 0;
+}
+
+.cidade {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.vertical {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    /* Safari/Chrome */
+    -moz-transform: rotate(-90deg);
+    /* Firefox */
+    -o-transform: rotate(-90deg);
+    /* Opera */
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+}
+
+.barcodetext {
+    float: right;
+    margin: -114px -27px 0 0;
+    font-size: 22px;
+}
