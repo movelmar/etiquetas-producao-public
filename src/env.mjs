@@ -8,6 +8,9 @@ export const env = createEnv({
    */
   server: {
     NODE_ENV: z.enum(["development", "test", "production"]),
+    PORT:  z.string().refine((val) => !Number.isNaN(parseInt(val)), {
+      message: "Expected number, received a string"
+    }),
   },
 
   /**
@@ -25,6 +28,7 @@ export const env = createEnv({
    */
   runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
+    PORT: process.env.PORT,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**
